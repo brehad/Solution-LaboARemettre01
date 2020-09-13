@@ -2,7 +2,7 @@
 //Auteur: Hadrien Breton
 //Date: 2020-09-10
 
-#include <iostream>
+#include <iostream>													//Pour pouvoir utiliser cin et cout
 
 void main()
 {
