@@ -1,4 +1,4 @@
-//But: Déterminer si un nombre choisi par l'utilisateur est pair ou impair
+//But: DÃ©terminer si un nombre choisi par l'utilisateur est pair ou impair
 //Auteur: Hadrien Breton
 //Date: 2020-09-10
 
@@ -6,29 +6,29 @@
 
 void main()
 {
-	int nb;															//Sert à réserver de la mémoire pour lenombre qui va être entré par l'utilisateur
-	int res;														//Réserve de la mémoire pour l'opération %
+	int nb;															//Sert Ã  rÃ©server de la mÃ©moire pour lenombre qui va Ãªtre entrÃ© par l'utilisateur
+	int res;														//RÃ©serve de la mÃ©moire pour l'opÃ©ration %
 
-	setlocale(LC_ALL, "");											//Sert à afficher les bons accents dans la console	
+	setlocale(LC_ALL, "");											//Sert Ã  afficher les bons accents dans la console	
 
-	std::cout << "Veuillez entrer un nombre: ";						//Affiche le message entre guillemets à l'utilisateur
-	std::cin >> nb;													//Sert à faire entrer une valeur à l'utilisateur pour initialiser la variable
+	std::cout << "Veuillez entrer un nombre: ";						//Affiche le message entre guillemets Ã  l'utilisateur
+	std::cin >> nb;													//Sert Ã  faire entrer une valeur Ã  l'utilisateur pour initialiser la variable
 
-	res = (nb % 2);													//Effectue l'opération %2 au nombre entré par l'utilisateur et le stocker dans la variable "res". 
-																	//En effectuant cette opération, on ne peut obtenir que 0 ou 1 dépendemment si le nombre entré par l'utilisateur est pair ou impair.
+	res = (nb % 2);													//Effectue l'opÃ©ration %2 au nombre entrÃ© par l'utilisateur et le stocker dans la variable "res". 
+																	//En effectuant cette opÃ©ration, on ne peut obtenir que 0 ou 1 dÃ©pendemment si le nombre entrÃ© par l'utilisateur est pair ou impair.
 
-	if (res==0)														//Si "res" est égal à 0, ça signifie que "nb" est pair. La boucle if permet de vérifier si "nb" est égal à 0.
+	if (res==0)														//Si "res" est Ã©gal Ã  0, Ã§a signifie que "nb" est pair. La boucle if permet de vÃ©rifier si "nb" est Ã©gal Ã  0.
 	{
-		std::cout << "Le nombre " << nb << " est pair.";				//Le programme affiche à l'écran que le nombre est pair
+		std::cout << "Le nombre " << nb << " est pair.";				//Le programme affiche Ã  l'Ã©cran que le nombre est pair
 	}
-	else															//Si "nb" n'est pas égal à 0, le programme saute la boucle if et se rends automatiquement à la boucle else
+	else															//Si "nb" n'est pas Ã©gal Ã  0, le programme saute la boucle if et se rends automatiquement Ã  la boucle else
 	{
-		std::cout << "Le nombre " << nb << " est impair.";			//Le programme affiche à l'écran que le nombre est impair
+		std::cout << "Le nombre " << nb << " est impair.";			//Le programme affiche Ã  l'Ã©cran que le nombre est impair
 	}
 
 }
 
-
+// KM : WOW et ReWow ! Quel programme et quel plan de tests complet ! Bravo
 
 //Le plan de test
 /*
